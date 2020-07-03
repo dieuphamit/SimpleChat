@@ -13,10 +13,10 @@ const forceSSL = function () {
     next();
   }
 };
-app.use(express.static('./dist/{{angular-chat}}'));
+app.use(express.static('./dist/angular-chat'));
 
 app.get('/*', function (req, res) {
-  res.sendFile(path.join(__dirname,'/dist/{{angular-chat}}/index.html'));
+  res.sendFile(path.join(__dirname,'/dist/angular-chat/index.html'));
 });
 
 app.use(forceSSL());
