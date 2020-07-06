@@ -1,10 +1,9 @@
-.example-container {
-  display: flex;
+.example-container {  
   padding: 10px;
 }
 
 .drawer-container {
-  position: absolute;
+  height: 800px;
   right: 0;
   left: 0;
   bottom: 0;
@@ -13,6 +12,10 @@
 
 .left-drawer {
   width: 200px;
+}
+
+.mat-drawer-content{
+  overflow: unset;
 }
 
 .users-card {
@@ -34,7 +37,7 @@
 }
 
 footer.sticky-footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
