@@ -15,18 +15,22 @@
   width: 200px;
 }
 
-.users-pane {
-  height: 500px;
-}
-
 .users-card {
   margin: 5px 20px;
 }
 
 .username {
-  position: absolute;
   margin-top: 5px;
-  margin-left: 10px;
+  margin-left: 0px;
+}
+
+.users-pane {
+  border-bottom: solid;
+  height: 44px;
+}
+
+.usernamegroup {
+  margin-right: 10px;
 }
 
 footer.sticky-footer {
@@ -37,10 +41,6 @@ footer.sticky-footer {
   padding: 10px;
   background-color: #ffffff;
   border-top: solid 1px #efefef;
-}
-
-.message-form {
-  margin-left: 200px;
 }
 
 .message-form-field {
@@ -152,5 +152,11 @@ footer.sticky-footer {
 
 .chat-content {
   overflow-y: scroll;
-  height: 600px;
+  height: 800px;
+}
+
+.rare-wind-gradient {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#a8edea), to(#fed6e3));
+  background-image: -webkit-linear-gradient(bottom, #a8edea 0%, #fed6e3 100%);
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }

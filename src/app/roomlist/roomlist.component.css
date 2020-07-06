@@ -1,3 +1,16 @@
+
+.logout {
+  margin-right: 8px;
+}
+
+.roomname {
+  background-color: darkorange;
+}
+
+.room-name-title {
+  padding: inherit;
+}
+
 .example-container {
   position: relative;
   padding: 10px;

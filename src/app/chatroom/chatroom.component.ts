@@ -102,4 +102,8 @@ export class ChatroomComponent implements OnInit {
     this.router.navigate(['/roomlist']);
   }
 
+  clearData() {
+    const newMessage = firebase.database().ref('chats/').remove();
+  }
+
 }
